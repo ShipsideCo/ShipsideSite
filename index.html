@@ -10,34 +10,10 @@
 <style type="text/css">
 html {margin:0; padding:0;}
 
-	/* On screens that are at least 1441px */
-@media screen and (min-width: 1441px) {
-	body { background-color: #f5f5e3; margin:0; padding:0; }
-	.circles {
-	background-color:#f5f5e3; color:#31343f;
-	width:150px; height:150px; float: left;
-	-webkit-border-top-left-radius:75px; /* Chrome and Safari */
-	-webkit-border-top-right-radius:75px;
-	-webkit-border-bottom-right-radius:75px;
-	-webkit-border-bottom-left-radius:75px;
-	-moz-border-radius-topleft:75px; /* Firefox */
-	-moz-border-radius-topright:75px;
-	-moz-border-radius-bottomright:75px;
-	-moz-border-radius-bottomleft:75px;
-	border-top-left-radius: 75px; /* Standard Syntax */
-	border-top-right-radius: 75px;
-	border-bottom-right-radius: 75px;
-	border-bottom-left-radius: 75px;
-	font-family: 'Lato', sans-serif; text-align: center; text-transform: uppercase;	letter-spacing:.1em; font-size: .8em;	
-	}
-	.circles.yt { background-image:url(img/yt.png); background-position: center 47%; background-repeat: no-repeat; background-size: 46%;}
-	.circles.steam { background-image:url(img/steam.png); background-position: center 47%; background-repeat: no-repeat; background-size: 50%; margin:0 20px;}
-	.circles.itch { background-image:url(img/itch.png); background-position: center 47%; background-repeat: no-repeat; background-size: 40%;}
-	.txt {padding-top: 102px;}
-}
 
 /* On screens that are 992px wide or less */
-@media screen and (max-width: 1440px) {
+
+@media screen and (max-width: 9999px) {
 	body { background-color: #f5f5e3; margin:0; padding:0; }
 	.circles {
 	background-color:#f5f5e3; color:#31343f;
@@ -60,6 +36,16 @@ html {margin:0; padding:0;}
 	.circles.steam { background-image:url(img/steam.png); background-position: center 47%; background-repeat: no-repeat; background-size: 50%; margin:0 20px;}
 	.circles.itch { background-image:url(img/itch.png); background-position: center 47%; background-repeat: no-repeat; background-size: 40%;}
 	.txt {padding-top: 102px;}
+	.quin {
+		margin:0; padding:0; border:0; width:100%; height:330px; 
+		background-image: url(img/quinss.jpg); 
+		background-position: center top; 
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.quincircles {margin:90px 0 0 0;}
 }
 	
 	
@@ -87,6 +73,16 @@ html {margin:0; padding:0;}
 	.circles.steam { background-image:url(img/steam.png); background-position: center 47%; background-repeat: no-repeat; background-size: 50%; margin:0 20px;}
 	.circles.itch { background-image:url(img/itch.png); background-position: center 47%; background-repeat: no-repeat; background-size: 40%;}
 	.txt {padding-top: 68px;}
+	.quin {
+		margin:0; padding:0; border:0; width:100%; height:250px; 
+		background-image: url(img/quinss720.jpg); 
+		background-position: center top; 
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.quincircles {margin:80px 0 0 0;}
 }
 
 a:link{ color: #31343f; text-decoration: none; } 
@@ -95,28 +91,19 @@ a:hover { color: #31343f; text-decoration: none; }
 a:active { color: #31343f; text-decoration: none; } 
 a:focus { color: #31343f; text-decoration: none; } 
 	
-
-	
 .topbar {
 	margin:0; padding:0; border:0; width:100%;
-	 
 	background-image: url(img/shipside.png); 
 	background-position: center 52%; 
 	background-repeat: no-repeat;
+	background-size: 134px 168px;
 	height:210px; padding-bottom: 10px;
 	border-top: 14px solid #31343f;
 }
 
 
-.quin {margin:0; padding:0; border:0; width:100%; height:330px; 
-	background-image: url(img/quinss.jpg); 
-	background-position: center top; 
-	background-repeat: no-repeat;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.quincircles {margin:90px 0 0 0;}
+
+
 
 .linkspan{ 
   width:100%;
