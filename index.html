@@ -84,8 +84,80 @@ html {margin:0; padding:0;}
 	.quincircles {margin:86px 0 0 0;}
 }
 	
-/* On screens that are 720px wide or less */
-@media screen and (max-width: 390px) {
+/* On screens that are 610px wide or less */
+@media screen and (max-width: 610px) {
+	body { background-color: #8BECA5; margin:0; padding:0; color: white; }
+	.circles {
+	background-color:#f5f5e3; color:#31343f;
+	width:100px; height:100px; float: left;
+	-webkit-border-top-left-radius:50px; /* Chrome and Safari */
+	-webkit-border-top-right-radius:50px;
+	-webkit-border-bottom-right-radius:50px;
+	-webkit-border-bottom-left-radius:50px;
+	-moz-border-radius-topleft:50px; /* Firefox */
+	-moz-border-radius-topright:50px;
+	-moz-border-radius-bottomright:50px;
+	-moz-border-radius-bottomleft:50px;
+	border-top-left-radius: 50px; /* Standard Syntax */
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	font-family: 'Lato', sans-serif; text-align: center; text-transform: uppercase;	letter-spacing:.04em; font-size: .78em;	
+	}
+	.circles.yt { background-image:url(img/yt.png); background-position: center 45%; background-repeat: no-repeat; background-size: 46%;}
+	.circles.steam { background-image:url(img/steam.png); background-position: center 45%; background-repeat: no-repeat; background-size: 50%; margin:0 20px;}
+	.circles.itch { background-image:url(img/itch.png); background-position: center 45%; background-repeat: no-repeat; background-size: 40%;}
+	.txt {padding-top: 66px;}
+	.quin {
+		margin:0; padding:0; border:0; width:100%; height:240px; 
+		background-image: url(img/quinss720.jpg); background-size: 140%; 
+		background-position: center top; 
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.quincircles {margin:100px 0 0 0;}
+}
+	
+/* On screens that are 510px wide or less */
+@media screen and (max-width: 510px) {
+	body { background-color: #EDCB93; margin:0; padding:0; color: white; }
+	.circles {
+	background-color:#f5f5e3; color:#31343f;
+	width:100px; height:100px; float: left;
+	-webkit-border-top-left-radius:50px; /* Chrome and Safari */
+	-webkit-border-top-right-radius:50px;
+	-webkit-border-bottom-right-radius:50px;
+	-webkit-border-bottom-left-radius:50px;
+	-moz-border-radius-topleft:50px; /* Firefox */
+	-moz-border-radius-topright:50px;
+	-moz-border-radius-bottomright:50px;
+	-moz-border-radius-bottomleft:50px;
+	border-top-left-radius: 50px; /* Standard Syntax */
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	font-family: 'Lato', sans-serif; text-align: center; text-transform: uppercase;	letter-spacing:.04em; font-size: .78em;	
+	}
+	.circles.yt { background-image:url(img/yt.png); background-position: center 45%; background-repeat: no-repeat; background-size: 46%;}
+	.circles.steam { background-image:url(img/steam.png); background-position: center 45%; background-repeat: no-repeat; background-size: 50%; margin:0 20px;}
+	.circles.itch { background-image:url(img/itch.png); background-position: center 45%; background-repeat: no-repeat; background-size: 40%;}
+	.txt {padding-top: 66px;}
+	.quin {
+		margin:0; padding:0; border:0; width:100%; height:220px; 
+		background-image: url(img/quinss720.jpg); background-size: 140%; 
+		background-position: center top; 
+		background-repeat: no-repeat;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.quincircles {margin:74px 0 0 0;}
+}
+	
+/* On screens that are 410px wide or less */
+@media screen and (max-width: 410px) {
 	body { background-color: #f5f5e3; margin:0; padding:0; color: white; }
 	.circles {
 	background-color:#f5f5e3; color:#31343f;
@@ -156,6 +228,6 @@ a:focus { color: #31343f; text-decoration: none; }
 			<div class="circles itch"><a href="about:blank"><span class="linkspan"><div class="txt">Itch.io</div></span></a></div>
 		</div>
 	</div>
-	<font color="black">Prudence</font>
+	<font color="black">Queens</font>
 </body>
 </html>
