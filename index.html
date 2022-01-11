@@ -10,197 +10,41 @@
 <style type="text/css">
 html {margin:0; padding:0;}
 
-
-/* On screens that are 992px wide or less */
-
-@media screen and (max-width: 9999px) {
-	body { background-color: #f5f5e3; margin:0; padding:0; }
-	.circles {
-	background-color:#f5f5e3; color:#31343f;
-	width:150px; height:150px; float: left;
-	-webkit-border-top-left-radius:75px; /* Chrome and Safari */
-	-webkit-border-top-right-radius:75px;
-	-webkit-border-bottom-right-radius:75px;
-	-webkit-border-bottom-left-radius:75px;
-	-moz-border-radius-topleft:75px; /* Firefox */
-	-moz-border-radius-topright:75px;
-	-moz-border-radius-bottomright:75px;
-	-moz-border-radius-bottomleft:75px;
-	border-top-left-radius: 75px; /* Standard Syntax */
-	border-top-right-radius: 75px;
-	border-bottom-right-radius: 75px;
-	border-bottom-left-radius: 75px;
-	font-family: 'Lato', sans-serif; text-align: center; text-transform: uppercase;	letter-spacing:.1em; font-size: .8em;	
-	}
-	.circles.yt { background-image:url(img/yt.png); background-position: center 47%; background-repeat: no-repeat; background-size: 46%;}
-	.circles.steam { background-image:url(img/steam.png); background-position: center 47%; background-repeat: no-repeat; background-size: 50%; margin:0 20px;}
-	.circles.itch { background-image:url(img/itch.png); background-position: center 47%; background-repeat: no-repeat; background-size: 40%;}
-	.txt {padding-top: 102px;}
-	.quin {
-		margin:0; padding:0; border:0; width:100%; height:330px; 
-		background-image: url(img/quinss.jpg); 
-		background-position: center top; 
-		background-repeat: no-repeat;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.quincircles {margin:90px 0 0 0;}
-	.twitter { width:47px; height:43px; background-image: url(img/twitter.png); background-size:100%; margin:0 120px 0 0;}
-	.ig { width:47px; height:43px; background-image: url(img/ig.png); background-size:100%; margin:0 0 0 120px; }
+body { background-color: #31343f; margin:0; padding:0; }
+.circles {
+background-color:#f5f5e3; color:#31343f;
+width:130px; height:130px; float: left;
+-webkit-border-top-left-radius:75px; /* Chrome and Safari */
+-webkit-border-top-right-radius:75px;
+-webkit-border-bottom-right-radius:75px;
+-webkit-border-bottom-left-radius:75px;
+-moz-border-radius-topleft:75px; /* Firefox */
+-moz-border-radius-topright:75px;
+-moz-border-radius-bottomright:75px;
+-moz-border-radius-bottomleft:75px;
+border-top-left-radius: 75px; /* Standard Syntax */
+border-top-right-radius: 75px;
+border-bottom-right-radius: 75px;
+border-bottom-left-radius: 75px;
+font-family: 'Lato', sans-serif; text-align: center; text-transform: uppercase;	letter-spacing:.1em; font-size: .8em;	
 }
+.circles.yt { background-image:url(img/yt.png); background-position: center 47%; background-repeat: no-repeat; background-size: 46%;}
+.circles.steam { background-image:url(img/steam.png); background-position: center 47%; background-repeat: no-repeat; background-size: 50%; margin:0 20px;}
+.circles.itch { background-image:url(img/itch.png); background-position: center 47%; background-repeat: no-repeat; background-size: 40%;}
+.txt {padding-top: 90px;}
+.quin {
+	margin:0; padding:0; border:0; position: absolute; top:210px; left: 0; right:0; bottom:0; 
+	background-image: url(img/quinss.jpg); 
+	background-position: center top; 
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+}
+.quincircles {margin:160px 0 0 0;}
+.twitter { width:47px; height:43px; background-image: url(img/twitter.png); background-size:100%; margin:0 120px 0 0;}
+.ig { width:47px; height:43px; background-image: url(img/ig.png); background-size:100%; margin:0 0 0 120px; }
 	
-/* On screens that are 1440px wide or less */
-@media screen and (max-width: 1000px) {
-	body { background-color: #f5f5e3; margin:0; padding:0; }
-	.circles {
-	background-color:#f5f5e3; color:#31343f;
-	width:150px; height:150px; float: left;
-	-webkit-border-top-left-radius:75px; /* Chrome and Safari */
-	-webkit-border-top-right-radius:75px;
-	-webkit-border-bottom-right-radius:75px;
-	-webkit-border-bottom-left-radius:75px;
-	-moz-border-radius-topleft:75px; /* Firefox */
-	-moz-border-radius-topright:75px;
-	-moz-border-radius-bottomright:75px;
-	-moz-border-radius-bottomleft:75px;
-	border-top-left-radius: 75px; /* Standard Syntax */
-	border-top-right-radius: 75px;
-	border-bottom-right-radius: 75px;
-	border-bottom-left-radius: 75px;
-	font-family: 'Lato', sans-serif; text-align: center; text-transform: uppercase;	letter-spacing:.1em; font-size: .8em;	
-	}
-	.circles.yt { background-image:url(img/yt.png); background-position: center 47%; background-repeat: no-repeat; background-size: 46%;}
-	.circles.steam { background-image:url(img/steam.png); background-position: center 47%; background-repeat: no-repeat; background-size: 50%; margin:0 20px;}
-	.circles.itch { background-image:url(img/itch.png); background-position: center 47%; background-repeat: no-repeat; background-size: 40%;}
-	.txt {padding-top: 102px;}
-	.quin {
-		margin:0; padding:0; border:0; width:100%; height:308px; 
-		background-image: url(img/quinss.jpg); background-size: 230%; 
-		background-position: center top; 
-		background-repeat: no-repeat;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.quincircles {margin:86px 0 0 0;}
-	.twitter { width:47px; height:43px; background-image: url(img/twitter.png); background-size:100%; margin:0 90px 0 0;}
-	.ig { width:47px; height:43px; background-image: url(img/ig.png); background-size:100%; margin:0 0 0 90px; }
-}
-	
-/* On screens that are 610px wide or less */
-@media screen and (max-width: 610px) {
-	body { background-color: #f5f5e3; margin:0; padding:0; color: white; }
-	.circles {
-	background-color:#f5f5e3; color:#31343f;
-	width:100px; height:100px; float: left;
-	-webkit-border-top-left-radius:50px; /* Chrome and Safari */
-	-webkit-border-top-right-radius:50px;
-	-webkit-border-bottom-right-radius:50px;
-	-webkit-border-bottom-left-radius:50px;
-	-moz-border-radius-topleft:50px; /* Firefox */
-	-moz-border-radius-topright:50px;
-	-moz-border-radius-bottomright:50px;
-	-moz-border-radius-bottomleft:50px;
-	border-top-left-radius: 50px; /* Standard Syntax */
-	border-top-right-radius: 50px;
-	border-bottom-right-radius: 50px;
-	border-bottom-left-radius: 50px;
-	font-family: 'Lato', sans-serif; text-align: center; text-transform: uppercase;	letter-spacing:.04em; font-size: .78em;	
-	}
-	.circles.yt { background-image:url(img/yt.png); background-position: center 45%; background-repeat: no-repeat; background-size: 46%;}
-	.circles.steam { background-image:url(img/steam.png); background-position: center 45%; background-repeat: no-repeat; background-size: 50%; margin:0 20px;}
-	.circles.itch { background-image:url(img/itch.png); background-position: center 45%; background-repeat: no-repeat; background-size: 40%;}
-	.txt {padding-top: 66px;}
-	.quin {
-		margin:0; padding:0; border:0; width:100%; height:240px; 
-		background-image: url(img/quinss720.jpg); background-size: 140%; 
-		background-position: center top; 
-		background-repeat: no-repeat;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.quincircles {margin:100px 0 0 0;}
-	.twitter { width:47px; height:43px; background-image: url(img/twitter.png); background-size:100%; margin:0 70px 0 0;}
-	.ig { width:47px; height:43px; background-image: url(img/ig.png); background-size:100%; margin:0 0 0 70px; }
-}
-	
-/* On screens that are 510px wide or less */
-@media screen and (max-width: 510px) {
-	body { background-color: #f5f5e3; margin:0; padding:0; color: white; }
-	.circles {
-	background-color:#f5f5e3; color:#31343f;
-	width:100px; height:100px; float: left;
-	-webkit-border-top-left-radius:50px; /* Chrome and Safari */
-	-webkit-border-top-right-radius:50px;
-	-webkit-border-bottom-right-radius:50px;
-	-webkit-border-bottom-left-radius:50px;
-	-moz-border-radius-topleft:50px; /* Firefox */
-	-moz-border-radius-topright:50px;
-	-moz-border-radius-bottomright:50px;
-	-moz-border-radius-bottomleft:50px;
-	border-top-left-radius: 50px; /* Standard Syntax */
-	border-top-right-radius: 50px;
-	border-bottom-right-radius: 50px;
-	border-bottom-left-radius: 50px;
-	font-family: 'Lato', sans-serif; text-align: center; text-transform: uppercase;	letter-spacing:.04em; font-size: .78em;	
-	}
-	.circles.yt { background-image:url(img/yt.png); background-position: center 45%; background-repeat: no-repeat; background-size: 46%;}
-	.circles.steam { background-image:url(img/steam.png); background-position: center 45%; background-repeat: no-repeat; background-size: 50%; margin:0 20px;}
-	.circles.itch { background-image:url(img/itch.png); background-position: center 45%; background-repeat: no-repeat; background-size: 40%;}
-	.txt {padding-top: 66px;}
-	.quin {
-		margin:0; padding:0; border:0; width:100%; height:220px; 
-		background-image: url(img/quinss720.jpg); background-size: 140%; 
-		background-position: center top; 
-		background-repeat: no-repeat;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.quincircles {margin:74px 0 0 0;}
-	.twitter { width:47px; height:43px; background-image: url(img/twitter.png); background-size:100%; margin:0 50px 0 0;}
-	.ig { width:47px; height:43px; background-image: url(img/ig.png); background-size:100%; margin:0 0 0 50px; }
-}
-	
-/* On screens that are 410px wide or less */
-@media screen and (max-width: 410px) {
-	body { background-color: #f5f5e3; margin:0; padding:0; color: white; }
-	.circles {
-	background-color:#f5f5e3; color:#31343f;
-	width:100px; height:100px; float: left;
-	-webkit-border-top-left-radius:50px; /* Chrome and Safari */
-	-webkit-border-top-right-radius:50px;
-	-webkit-border-bottom-right-radius:50px;
-	-webkit-border-bottom-left-radius:50px;
-	-moz-border-radius-topleft:50px; /* Firefox */
-	-moz-border-radius-topright:50px;
-	-moz-border-radius-bottomright:50px;
-	-moz-border-radius-bottomleft:50px;
-	border-top-left-radius: 50px; /* Standard Syntax */
-	border-top-right-radius: 50px;
-	border-bottom-right-radius: 50px;
-	border-bottom-left-radius: 50px;
-	font-family: 'Lato', sans-serif; text-align: center; text-transform: uppercase;	letter-spacing:.04em; font-size: .78em;	
-	}
-	.circles.yt { background-image:url(img/yt.png); background-position: center 45%; background-repeat: no-repeat; background-size: 46%;}
-	.circles.steam { background-image:url(img/steam.png); background-position: center 45%; background-repeat: no-repeat; background-size: 50%; margin:0 20px;}
-	.circles.itch { background-image:url(img/itch.png); background-position: center 45%; background-repeat: no-repeat; background-size: 40%;}
-	.txt {padding-top: 66px;}
-	.quin {
-		margin:0; padding:0; border:0; width:100%; height:220px; 
-		background-image: url(img/quinss720.jpg); background-size: 140%; 
-		background-position: center top; 
-		background-repeat: no-repeat;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.quincircles {margin:59px 0 0 0;}
-	.twitter { width:47px; height:43px; background-image: url(img/twitter.png); background-size:100%; margin:0 30px 0 0;}
-	.ig { width:47px; height:43px; background-image: url(img/ig.png); background-size:100%; margin:0 0 0 30px; }
-}
 
 a:link{ color: #31343f; text-decoration: none; } 
 a:visited{ color: #31343f; text-decoration: none; } 
@@ -210,7 +54,7 @@ a:focus { color: #31343f; text-decoration: none; }
 	
 .topbar {
 	margin:0; padding:0; border:0; width:100%;
-	height:210px; padding-bottom: 0px;
+	height:200px; padding-bottom: 0px;
 	border-top: 14px solid #31343f;
 	display: flex;
 	justify-content: center;
@@ -218,7 +62,7 @@ a:focus { color: #31343f; text-decoration: none; }
 }
 .shipside { background-image: url(img/shipside.png); background-size:100%; background-repeat: no-repeat; width:134px; height:168px;}
 .linkspan{ width:100%; height:100%; top:0; left: 0; z-index: 1; }
-
+.fullwidth {background-color: #f5f5e3}
 </style>
 </head>
 <body>
